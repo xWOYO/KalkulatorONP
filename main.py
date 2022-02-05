@@ -105,7 +105,7 @@ def calculate():
                 push(numerki, x / y)
             elif dane[action] == "*":
                 push(numerki, x * y)
-            elif dane[action] == "*":
+            elif dane[action] == "^":
                 push(numerki, pow(x, y))
             action = action + 1
     wynik = top(numerki)
